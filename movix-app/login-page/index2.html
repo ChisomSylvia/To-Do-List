@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movix App Login Page</title>
+  <link rel="stylesheet" href="/registration-page/index.css">
+</head>
+<body>
+  <section class="main-container">
+    <header class="header-container">
+      <img src="/images/red unchecked.png" alt="logo">
+      <h1>Hi, Welcome</h1>
+      <p>Please sign-in to start your experience</p>
+    </header>
+  
+    <main class="form-container">
+      <form id="loginForm">
+        <p><input type="email" name="email" id="loginEmail" placeholder="Email" required></p>
+  
+        <p><input type="password" name="password" id="loginPassword" placeholder="Password" required></p>
+  
+        <button onclick="login()" type="submit">LOGIN</button>
+      </form>
+
+      <p id="displayMessage" class="displayMessage"></p>
+    </main>
+  
+    <footer class="footer-container">
+      <p>Don't have an account? <a href="http://127.0.0.1:5500/registration-page/index.html">Register</a></p>
+    </footer>
+  </section>
+
+  <script src="/registration-page/index.js"></script>
+</body>
+</html>
